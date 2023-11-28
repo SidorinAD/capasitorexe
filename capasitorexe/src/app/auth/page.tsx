@@ -2,11 +2,6 @@ import { Capacitor } from "@capacitor/core";
 import styles from "./page.module.css";
 
 const Auth = () => {
-  if (Capacitor.getPlatform() === "web") {
-  } else if (Capacitor.getPlatform() === "ios") {
-  } else if (Capacitor.getPlatform() === "android") {
-  }
-
   return (
     <div className={styles.authContainer}>
       <p className={styles.authTitle}>
